@@ -30,11 +30,11 @@ const Navbar = () => {
     <nav className='fixed top-0 left-0 w-full py-24 sm:py-24 sm:px-24 z-50 '>
       <div className='flex justify-center md:justify-start px-8 gap-8'>
         <Button href='/' active={pathname === '/'}>
-          Assignment
+          July
         </Button>
 
-        <Button href='/explore' active={pathname === '/explore'}>
-          Don&apos;t Click Me!
+        <Button href='/next' active={pathname === '/explore'}>
+          Next?
         </Button>
       </div>
     </nav>
@@ -42,3 +42,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+  
